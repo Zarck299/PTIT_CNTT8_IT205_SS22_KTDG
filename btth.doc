@@ -1,0 +1,9 @@
+Phần 1:
+Câu 1:
+giá trị của base_rate trước khi chạy qua dòng điều kiện "if distance >= 20:" là 30000 do phương thức lúc này là express
+Câu 2:
+- dòng logging.info(...) ở đầu hàm không hiển thị lỗi ra màn hình vì dòng "level=logging.WARNING" sẽ chặn các sự kiện 
+  ở mức info trở xuống và chỉ in với mức từ WARNING trở lên và console ở mức debug
+- sửa tham số level ở hàm logging.basicConfig() với mức độ nghiêm trọng từ WARNING xuống còn INFO
+Câu 3:
+- Dòng gây lỗi: "if distance >= 20: base_rate = 10000" vì nó sẽ đặt base rate = 10000 nếu distance >= 20
